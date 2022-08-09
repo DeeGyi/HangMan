@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Horror Story</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <style>body{background:#121212}#loader{width:500px;position:absolute;text-align:center;left:calc(50% - 250px);top:calc(50% - 10px)}#loader .square{display:inline-block;height:10px;width:10px;margin:10px;position:relative;box-shadow:0 0 20px rgba(0,0,0,.3);animation:bouncer cubic-bezier(.455,.03,.515,.955) .75s infinite alternate}#loader .square:nth-child(5n+1){background:#0F9;animation-delay:0}#loader .square:nth-child(5n+2){background:#0CF;animation-delay:calc(0s + (.1s * 1))}#loader .square:nth-child(5n+3){background:#93F;animation-delay:calc(0s + (.1s * 2))}#loader .square:nth-child(5n+4){background:#F66;animation-delay:calc(0s + (.1s * 3))}#loader .square:nth-child(5n+5){background:#FFF35C;animation-delay:calc(0s + (.1s * 4))}@keyframes bouncer{to{transform:scale(1.75) translateY(-20px)}}
+    </style>
+    <iframe src="https://giphy.com/embed/f4IjBQupqojhqQzKk2" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/blood-drip-f4IjBQupqojhqQzKk2"></a></p>
+    <h1>Hangman game</h1>
+    <h2>Guess the word</h2>
+    <div class="game-container"></div>
+    <div class="alphabet-container"></div>
+    <div class="main-container"></div>
+    <h4>Player</h4>
+    <div id="points"></div>
+    <div id="alphabet-guess"></div>
+</body>
+</html>
+
