@@ -41,10 +41,7 @@ resetGame.addEventListener("click", ()  => location.reload());
 
 // /*----- functions -----*/
 
-    var clown = ["stand", "head", "body", "rArm", "lArm", "rLeg", "lLeg"];
-for (var a = 0; j < clown.length; j++) {
-    setProperty(clown[j], "hidden", true);
-    }
+  
 
 
 
