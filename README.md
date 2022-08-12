@@ -3,14 +3,16 @@
 Hangman Horror Story
 Horror themed Hangman game that quizzes your trivia on popular horror movies of all time.
 
+Screenshots:
+ <img src="./Source/Hangman-Horror-Screenshot.jpg" alt="Screenshot"/>
 
 
-☐ Screenshot(s): Images of your actual game.
+Technologies Used:
+JavaScript, HTML & CSS
 
-Technologies Used: List of the technologies used, e.g., JavaScript, HTML, CSS...
+Getting Started: 
 
-☐ Getting Started: In this section include the link to your deployed game and any instructions you deem important.
 
-☐ Next Steps: Planned future enhancements (icebox items).
+Next Steps: 
+Achieve all the items listed in the icebox
 
-Note: Don't underestimate the value of a well crafted README.md. The README.md introduces your project to prospective employers and forms their first impression of your work!
