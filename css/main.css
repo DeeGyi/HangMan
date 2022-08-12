@@ -37,8 +37,22 @@ box {
 
 }
 
+p {
+    font-size: large;
+    font-weight: bold;
+    margin: 50px 25px;
+    border: 3px solid black
+    
+     
+}
 
-
+#letter-key {
+    width: 250px;
+    height: 30px;
+    margin: 150px 50px;
+    border: 3px solid black
+   
+}
 #enter  {
     font-family: 'Silkscreen', cursive;
     font-size: large;
@@ -56,12 +70,7 @@ box {
     bottom: 0;
 }
 
-#letter-key {
-    width: 250px;
-    height: 30px;
-    border: 3px solid black
-   
-}
+
 
 #letter-key:hover {
     background: red;
