@@ -41,20 +41,12 @@ resetGame.addEventListener("click", ()  => location.reload());
 
 // /*----- functions -----*/
 
-
-
-
-function word() {
-    let ratedRMovie = movies[Math.floor(Math.random() * movies.length)];
-    let horror = ratedRMovie.horror;
-    console.log(horror);
-
-    let movie = "";
-    for (let i = 0; i < horror.length; i++) {
-        movie = ``;
+    var clown = ["stand", "head", "body", "rArm", "lArm", "rLeg", "lLeg"];
+for (var a = 0; j < clown.length; j++) {
+    setProperty(clown[j], "hidden", true);
     }
-    wordGuess.innerHTML = movie;
-}
-    word();
+
+
+
 
    
