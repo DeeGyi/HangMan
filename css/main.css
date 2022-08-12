@@ -1,0 +1,88 @@
+
+
+.BG {
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://www.pngjoy.com/pngl/45/1040152_realistic-dripping-blood-png-blood-splashes-transparent-png.png");
+    background-repeat: repeat;
+
+}
+
+
+
+.game-container {
+    font-family: 'Silkscreen', cursive;
+    text-align: auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr;
+    grid-template-rows: 2fr 4fr 4fr;
+    height: 150vh;
+    margin: 1em;
+}
+
+box {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background:rgb(255, 252, 252);
+}
+
+.textInput {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4; 
+    
+    background:rgba(40, 114, 226, 0.568);
+
+}
+
+
+
+#enter  {
+    font-family: 'Silkscreen', cursive;
+    font-size: large;
+    width: 150px;
+    height: 50px;
+
+}
+
+#resetBtn {
+    font-family: 'Silkscreen', cursive;
+    font-size: large;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+
+#letter-key {
+    width: 250px;
+    height: 30px;
+    border: 3px solid black
+   
+}
+
+#letter-key:hover {
+    background: red;
+
+
+}
+header {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end: 2;
+    background: rgba(255, 0, 0, 0.274);
+}
+
+.hangman-container {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    text-align: center;
+    background:rgba(196, 245, 179, 0.541);
+}
+
+
